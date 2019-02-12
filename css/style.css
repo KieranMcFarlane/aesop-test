@@ -655,6 +655,15 @@ body {
   min-width: 50%;
 }
 
+#product_image {
+  height: 530px;
+  width: 100%;
+  background-size: contain;
+  max-height: 530px;
+  background-position: center center;
+  transition: background-image 0.2s ease-in-out;
+}
+
 .product-image img{
   height: auto;
   max-height: none;
